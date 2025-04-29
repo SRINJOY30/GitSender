@@ -17,6 +17,9 @@ public class Divider {
         catch(InputMismatchException I){
             System.out.println("Enter Required Integer..");
         }
-        
+        finally{
+            sc.close();
+            System.out.println("Finally block executed.");
+        }
     }   
 }
